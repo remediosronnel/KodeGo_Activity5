@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "808422583581",
+    "project_id": "login-register-firebase-aa41c",
+    "storage_bucket": "login-register-firebase-aa41c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:808422583581:android:9124a4f71ee416767e85f4",
+        "android_client_info": {
+          "package_name": "com.remedios.activity5"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "808422583581-9fuc5b3q4rr4uej334kr7rfgmengf9de.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBk9y2E1W46VO3ZZ3mGTpQv1gDoO9poFhE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "808422583581-9fuc5b3q4rr4uej334kr7rfgmengf9de.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

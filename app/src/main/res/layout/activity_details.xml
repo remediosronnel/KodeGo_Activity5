@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DetailActivity"
+    >
+    <ImageView
+        android:id="@+id/cover"
+        android:layout_marginTop="10dp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_the_art"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="Cover"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="The Art of Happiness"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:lines="2"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:id="@+id/tv_author"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Author: "
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:lines="1"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="186dp"
+        android:layout_marginTop="5dp"
+        android:text="Description "
+
+        android:textAlignment="inherit"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@id/tv_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="Price"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="100dp"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/add_cart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:drawableLeft="@drawable/ic_cart_24"
+            android:drawablePadding="25dp"
+            android:textAlignment="textStart"
+            android:paddingLeft="100dp"
+            android:text="Add to Cart" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:textAlignment="center"
+            android:text="Back" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
